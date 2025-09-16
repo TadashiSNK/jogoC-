@@ -1,0 +1,9 @@
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.exe.config
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.exe
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.pdb
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csprojResolveAssemblyReference.cache
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.exe
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.pdb
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.MainForm.resources
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csproj.GenerateResource.Cache
+C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.GameMenu.resources
