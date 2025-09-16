@@ -7,3 +7,12 @@ C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJ
 C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.MainForm.resources
 C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csproj.GenerateResource.Cache
 C:\Users\Alunos\Documents\Tadashi\ProjetoJogoC#\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.GameMenu.resources
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.exe.config
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.exe
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.pdb
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csprojResolveAssemblyReference.cache
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.GameMenu.resources
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.MainForm.resources
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csproj.GenerateResource.Cache
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.exe
+K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.pdb

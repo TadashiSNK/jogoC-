@@ -34,5 +34,9 @@ namespace ProjetoJogoC_
 			this.Hide();
 			
 		}
+		void GameMenuFormClosed(object sender, FormClosedEventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }

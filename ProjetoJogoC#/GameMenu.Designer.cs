@@ -42,9 +42,10 @@ namespace ProjetoJogoC_
 			// startButton
 			// 
 			this.startButton.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.startButton.Location = new System.Drawing.Point(138, 73);
+			this.startButton.Location = new System.Drawing.Point(104, 59);
+			this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.startButton.Name = "startButton";
-			this.startButton.Size = new System.Drawing.Size(300, 78);
+			this.startButton.Size = new System.Drawing.Size(225, 63);
 			this.startButton.TabIndex = 0;
 			this.startButton.Text = "Começar!";
 			this.startButton.UseVisualStyleBackColor = true;
@@ -52,13 +53,16 @@ namespace ProjetoJogoC_
 			// 
 			// GameMenu
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(567, 468);
+			this.ClientSize = new System.Drawing.Size(425, 380);
 			this.Controls.Add(this.startButton);
+			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.Name = "GameMenu";
 			this.Text = "GameMenu";
+			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.GameMenuFormClosed);
 			this.ResumeLayout(false);
+
 		}
 		private System.Windows.Forms.Button startButton;
 	}

@@ -18,10 +18,18 @@ namespace ProjetoJogoC_
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		
+		
 		public MainForm()
 		{
 			InitializeComponent();
 //			this.Size = new Size(1920, 1080);
+			
+
+			
+			//MENU PRINCIPAL
+			GameMenu menu_Principal = new GameMenu();
+			menu_Principal.ShowDialog();
 			
 			//CENARIO
 			cenario.Visible = true;
@@ -32,13 +40,14 @@ namespace ProjetoJogoC_
 			cenario.Size = new Size(this.ClientSize.Width, this.ClientSize.Height);
 			cenario.Image = Image.FromFile("cenario0.gif");
 			
-			//MENU PRINCIPAL
-			GameMenu menu_Principal = new GameMenu();
-			menu_Principal.ShowDialog();
 
-			//PERSONAGEM PRINCIPAL
-			Personagem_cs heroi			
 		}
+		
+		//PERSONAGEM PRINCIPAL
+		Personagem heroi =  new Personagem();
+
+		
+
 
 		
 		void MainFormResizeBegin(object sender, EventArgs e)
@@ -55,11 +64,34 @@ namespace ProjetoJogoC_
 		void MainFormLoad(object sender, EventArgs e)
 		{
 //			this.Hide();
+			heroi.Parent = cenario;
+			heroi.Left = 0;
+			heroi.Top = 0;
+			heroi.SizeMode = PictureBoxSizeMode.StretchImage;
+			heroi.Image = Image.FromFile("Gargoyle.gif");
 		}
 		
 		void MainFormShown(object sender, EventArgs e)
 		{
 //			this.Hide();
+		}
+		
+		
+		//Manuseando controles
+		void MainFormKeyDown(object sender, KeyEventArgs e)
+		{
+			if (e.KeyCode == Keys.Down){
+				heroi.Top += 10;
+			}
+			if (e.KeyCode == Keys.Up){
+				heroi.Top += -10;
+			}
+			if (e.KeyCode == Keys.Right){
+				heroi.Left += 10;
+			}
+			if (e.KeyCode == Keys.Left){
+				heroi.Left += -10;
+			}
 		}
 	}
 }
