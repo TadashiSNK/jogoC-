@@ -16,3 +16,12 @@ K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debu
 K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csproj.GenerateResource.Cache
 K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.exe
 K:\Secundária\Repeat_Client\Escola\HouseofDragons\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.pdb
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.exe.config
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.exe
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\bin\Debug\ProjetoJogoC#.pdb
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csprojResolveAssemblyReference.cache
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.GameMenu.resources
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC_.MainForm.resources
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.csproj.GenerateResource.Cache
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.exe
+C:\Users\Alunos\Desktop\2. Projeto Game\jogoC-\ProjetoJogoC#\obj\Debug\ProjetoJogoC#.pdb

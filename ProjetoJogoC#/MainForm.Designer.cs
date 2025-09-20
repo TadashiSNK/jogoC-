@@ -42,22 +42,22 @@ namespace ProjetoJogoC_
 			// 
 			// cenario
 			// 
-			this.cenario.Location = new System.Drawing.Point(70, 53);
-			this.cenario.Margin = new System.Windows.Forms.Padding(2);
+			this.cenario.Location = new System.Drawing.Point(93, 65);
+			this.cenario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.cenario.Name = "cenario";
-			this.cenario.Size = new System.Drawing.Size(342, 254);
+			this.cenario.Size = new System.Drawing.Size(456, 313);
 			this.cenario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.cenario.TabIndex = 0;
 			this.cenario.TabStop = false;
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(699, 434);
+			this.ClientSize = new System.Drawing.Size(932, 534);
 			this.Controls.Add(this.cenario);
 			this.KeyPreview = true;
-			this.Margin = new System.Windows.Forms.Padding(2);
+			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "MainForm";
 			this.Text = "ProjetoJogoC#";
 			this.Load += new System.EventHandler(this.MainFormLoad);
@@ -67,7 +67,6 @@ namespace ProjetoJogoC_
 			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainFormKeyDown);
 			((System.ComponentModel.ISupportInitialize)(this.cenario)).EndInit();
 			this.ResumeLayout(false);
-
 		}
 		private System.Windows.Forms.PictureBox cenario;
 	}

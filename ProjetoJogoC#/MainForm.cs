@@ -1,11 +1,4 @@
-﻿/*
- * Criado por SharpDevelop.
- * Usuário: Alunos
- * Data: 15/09/2025
- * Hora: 21:48
- * 
- * Para alterar este modelo use Ferramentas | Opções | Codificação | Editar Cabeçalhos Padrão.
- */
+﻿// Classe Mainform
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -13,9 +6,6 @@ using System.Windows.Forms;
 
 namespace ProjetoJogoC_
 {
-	/// <summary>
-	/// Description of MainForm.
-	/// </summary>
 	public partial class MainForm : Form
 	{
 		
@@ -44,7 +34,7 @@ namespace ProjetoJogoC_
 		}
 		
 		//PERSONAGEM PRINCIPAL
-		Personagem heroi =  new Personagem();
+		Heroi player =  new Heroi();
 
 		
 
@@ -63,12 +53,11 @@ namespace ProjetoJogoC_
 		
 		void MainFormLoad(object sender, EventArgs e)
 		{
-//			this.Hide();
-			heroi.Parent = cenario;
-			heroi.Left = 0;
-			heroi.Top = 0;
-			heroi.SizeMode = PictureBoxSizeMode.StretchImage;
-			heroi.Image = Image.FromFile("Gargoyle.gif");
+			player.Parent = cenario;
+			player.Left = 0;
+			player.Top = 0;
+			player.SizeMode = PictureBoxSizeMode.StretchImage;
+			player.Image = Image.FromFile("Gargoyle.gif");
 		}
 		
 		void MainFormShown(object sender, EventArgs e)
@@ -76,21 +65,19 @@ namespace ProjetoJogoC_
 //			this.Hide();
 		}
 		
-		
-		//Manuseando controles
 		void MainFormKeyDown(object sender, KeyEventArgs e)
 		{
-			if (e.KeyCode == Keys.Down){
-				heroi.Top += 10;
+			if (e.KeyCode == Keys.A){
+				player.Esquerda(player);
 			}
-			if (e.KeyCode == Keys.Up){
-				heroi.Top += -10;
+			if (e.KeyCode == Keys.D){
+				player.Direita(player);
 			}
-			if (e.KeyCode == Keys.Right){
-				heroi.Left += 10;
+			if (e.KeyCode == Keys.S){
+				player.Baixo(player);
 			}
-			if (e.KeyCode == Keys.Left){
-				heroi.Left += -10;
+			if (e.KeyCode == Keys.W){
+				player.Cima(player);
 			}
 		}
 	}

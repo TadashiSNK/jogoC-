@@ -1,11 +1,4 @@
-﻿/*
- * Criado por SharpDevelop.
- * Usuário: Alunos
- * Data: 15/09/2025
- * Hora: 21:49
- * 
- * Para alterar este modelo use Ferramentas | Opções | Codificação | Editar Cabeçalhos Padrão.
- */
+﻿//Classe Personagem
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -13,9 +6,6 @@ using System.Windows.Forms;
 
 namespace ProjetoJogoC_
 {
-	/// <summary>
-	/// Description of Personagem_cs.
-	/// </summary>
 	public class Personagem: PictureBox
 	{
 		public Personagem()
@@ -31,5 +21,14 @@ namespace ProjetoJogoC_
 		public int defesa = 15;
 		public int velocidade = 25;
 		public int direcao = 1;
+		
+		public void TestarDirecao (Personagem main, string direcao){
+			if (direcao == "direita" && main.direcao == 1){
+				main.Image = Image.FromFile("Gargoyle.gif");
+			}
+			if (direcao == "esquerda" && main.direcao == -1){
+				main.Image = Image.FromFile("GargoyleEsq.gif");
+			}
+		}
 	}
 }
