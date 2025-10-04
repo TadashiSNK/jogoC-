@@ -37,6 +37,7 @@ namespace ProjetoJogoC_
 		private void InitializeComponent()
 		{
 			this.cenario = new System.Windows.Forms.PictureBox();
+			this.label1 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.cenario)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -50,11 +51,23 @@ namespace ProjetoJogoC_
 			this.cenario.TabIndex = 0;
 			this.cenario.TabStop = false;
 			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(356, 331);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(385, 135);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "label1";
+			this.label1.Visible = false;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(932, 534);
+			this.Controls.Add(this.label1);
 			this.Controls.Add(this.cenario);
 			this.KeyPreview = true;
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -67,7 +80,10 @@ namespace ProjetoJogoC_
 			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainFormKeyDown);
 			((System.ComponentModel.ISupportInitialize)(this.cenario)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
+
 		}
 		private System.Windows.Forms.PictureBox cenario;
+		private System.Windows.Forms.Label label1;
 	}
 }

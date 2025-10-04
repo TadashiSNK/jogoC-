@@ -35,7 +35,10 @@ namespace ProjetoJogoC_
 		
 		//PERSONAGEM PRINCIPAL
 		Heroi player =  new Heroi();
-
+		
+		
+		
+		
 		
 
 
@@ -67,17 +70,33 @@ namespace ProjetoJogoC_
 		
 		void MainFormKeyDown(object sender, KeyEventArgs e)
 		{
+			
 			if (e.KeyCode == Keys.A){
 				player.Esquerda(player);
+				player.returnToBounds(player, this);
+				
 			}
 			if (e.KeyCode == Keys.D){
 				player.Direita(player);
+				player.returnToBounds(player, this);
+				
 			}
 			if (e.KeyCode == Keys.S){
 				player.Baixo(player);
+				player.returnToBounds(player, this);
+				
 			}
 			if (e.KeyCode == Keys.W){
+				label1.Text = player.Top.ToString();
 				player.Cima(player);
+				player.returnToBounds(player, this);	
+			}
+			
+			if(e.KeyCode == Keys.Space){
+				Tiro fireball = new Tiro();
+				fireball.Parent = cenario;
+				fireball.Top = player.Top;
+				fireball.Left = player.Left;
 			}
 		}
 	}
